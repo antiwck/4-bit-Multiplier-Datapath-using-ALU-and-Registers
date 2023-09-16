@@ -8,18 +8,20 @@ The datapath consists of a 4-bit registers, two 4-bit shifter registers, a 1-bit
 Assume: a = First multiplication operand, b = Second multiplication operand, E = Ereg, B = Breg, Ph = Phreg, Pl = Plreg
 <br /><br />
 The algorithm of the datapath is as below: <br />
-E with '0' <br />
-B = b <br />
-Ph = "0000" <br />
-Pl = a <br />
-counter = 0 <br />
-while (counter < 3) { <br />
-(&nbsp) [E, Ph] = Ph + Pl(0)*B <br />
-(&nbsp) LSH1(E, Ph, Pl) <br />
-(&nbsp) counter = counter + 1 <br />
-(&nbsp) } <br />
+<pre>
+E with '0' 
+B = b
+Ph = "0000"
+Pl = a 
+counter = 0 
+while (counter < 3) {
+    [E, Ph] = Ph + Pl(0)*B 
+    LSH1(E, Ph, Pl) 
+    counter = counter + 1 
+    } 
 OUTPUT [Ph, Pl]
 <br />
+</pre>
 The timing for the dataflow is controlled by a clock signal and the loading of register is dependent on the rising clock edge.
 
 <br />
