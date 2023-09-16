@@ -4,9 +4,9 @@
 The program is compiled in Intel Quartus Prime and run under the testbench to perform the functional computation.
 The 4-bit multiplier takes two 4-bit number in binary and multiply the two to produce a result that reflects the computation.
 The datapath consists of a 4-bit registers, two 4-bit shifter registers, a 1-bit register, a 4-bit adder, a 4-bit AND gate comparator, and a counter.
-<br />
+<br /><br />
 Assume: a = First multiplication operand, b = Second multiplication operand, E = Ereg, B = Breg, Ph = Phreg, Pl = Plreg
-<br />
+<br /><br />
 The algorithm of the datapath is as below: <br />
 E with '0' <br />
 B = b <br />
@@ -14,10 +14,10 @@ Ph = "0000" <br />
 Pl = a <br />
 counter = 0 <br />
 while (counter < 3) { <br />
-&nbsp [E, Ph] = Ph + Pl(0)*B <br />
-&nbsp LSH1(E, Ph, Pl) <br />
-&nbsp counter = counter + 1 <br />
-&nbsp } <br />
+(&nbsp) [E, Ph] = Ph + Pl(0)*B <br />
+(&nbsp) LSH1(E, Ph, Pl) <br />
+(&nbsp) counter = counter + 1 <br />
+(&nbsp) } <br />
 OUTPUT [Ph, Pl]
 <br />
 The timing for the dataflow is controlled by a clock signal and the loading of register is dependent on the rising clock edge.
