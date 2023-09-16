@@ -9,7 +9,7 @@ Assume: a = First multiplication operand, b = Second multiplication operand, E =
 <br /><br />
 The algorithm of the datapath is as below: <br />
 <pre>
-E with '0' 
+E = '0' 
 B = b
 Ph = "0000"
 Pl = a 
@@ -21,6 +21,8 @@ while (counter < 3) {
     } 
 OUTPUT [Ph, Pl]
 </pre>
+<br />
+Based 
 <br />
 The timing for the dataflow is controlled by a clock signal and the loading of register is dependent on the rising clock edge.
 <br />
