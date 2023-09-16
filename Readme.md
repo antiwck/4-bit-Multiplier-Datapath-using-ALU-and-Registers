@@ -23,7 +23,7 @@ OUTPUT [Ph, Pl]
 </pre>
 <br />
 <p align="center">
-  <img src="Sources/Timing analysis.png"><br />
+  <img src="Sources/Time.png"><br />
   Timing Analysis
 </p>
 <br />
@@ -44,7 +44,7 @@ The timing for the dataflow is controlled by a clock signal and the loading of r
 
 <br />
 <p align="center">
-  <img src="Sources/Output1.png"/><br />
+  <img src="Sources/Result1.png"/><br />
   Result computation 1
 </p>
 <br />
@@ -55,7 +55,7 @@ Result        : 10001111 (143)<br />
 
 <br />
 <p align="center">
-  <img src="Sources/Output2.png"/><br />
+  <img src="Sources/Result2.png"/><br />
   Result computation 2
 </p>
 <br />
@@ -67,7 +67,7 @@ Result        : 01100000 (96)<br />
 
 <br />
 <p align="center">
-  <img src="Sources/Output3.png"/><br />
+  <img src="Sources/Result3.png"/><br />
   Result computation 3
 </p>
 <br />
