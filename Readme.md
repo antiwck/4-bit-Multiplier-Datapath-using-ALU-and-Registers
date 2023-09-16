@@ -1,4 +1,4 @@
-# 4-bit-Multiplier-usinng-ALU-and-Registers
+# 4-bit-Multiplier-using-ALU-and-Registers
 # The 4-bit multiplier uses ALU, registers and counter to perform multiplication between two 4-bit unsigned binary numbers.
 
 The program is compiled in Intel Quartus Prime and run under the testbench to perform the functional computation.
