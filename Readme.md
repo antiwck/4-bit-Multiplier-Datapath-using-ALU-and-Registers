@@ -21,8 +21,14 @@ while (counter < 3) {
     } 
 OUTPUT [Ph, Pl]
 </pre>
+<p align="center">
+  <img src="Sources/Timing analysis.png"><br />
+  Timing Analysis
+</p>
 <br />
-Based 
+Figure above shows that the multiplication takes 150ns to complete.<br />
+The clock is set at 5ns for low and high giving a totol cycle duty of 10ns.<br />
+The start signal will be high for 17.5ns and low for 132.5ns to enable the loading of value into the registers and allowing 
 <br />
 The timing for the dataflow is controlled by a clock signal and the loading of register is dependent on the rising clock edge.
 <br />
