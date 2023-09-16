@@ -27,9 +27,9 @@ OUTPUT [Ph, Pl]
   Timing Analysis
 </p>
 <br />
-Figure above shows that the multiplication takes 150ns to complete.<br />
+Figure above shows that the multiplication takes 140ns to complete.<br />
 The clock is set at 5ns for low and high giving a totol cycle duty of 10ns.<br />
-The start signal will be high for 17.5ns and low for 132.5ns to enable the loading of value into the registers and allowing the 4-bit adder to compute with the preloaded zero setting.<br />
+The start signal will be high for 17.5ns and low for 122.5ns to enable the loading of value into the registers and allowing the 4-bit adder to compute with the preloaded zero setting.<br />
 The load and shift will follow next where the load will continue to load the adder output into the registers and shift will shift the registers data to the right by one bit.<br />
 For each subsequenct computation, there will be a clock edge before load to allow adder to perform the neccesary computation.<br />
 The last clock edge will be used to indicate the computation has completed and result will be projected.<br />
