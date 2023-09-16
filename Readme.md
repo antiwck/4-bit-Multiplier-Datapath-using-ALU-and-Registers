@@ -16,7 +16,7 @@ Pl = a
 counter = 0 
 while (counter < 3) {
     [E, Ph] = Ph + Pl(0)*B 
-    LSH1(E, Ph, Pl) 
+    LSR1(E, Ph, Pl) 
     counter = counter + 1 
     } 
 OUTPUT [Ph, Pl]
