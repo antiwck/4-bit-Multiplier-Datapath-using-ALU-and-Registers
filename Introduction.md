@@ -21,8 +21,9 @@ while (counter < 3) {
     } 
 OUTPUT [Ph, Pl]
 </pre>
+<br />
 The timing for the dataflow is controlled by a clock signal and the loading of register is dependent on the rising clock edge.
-
+<br />
 <br />
 <p align="center">
   <img src="Sources/Datapath design.png"><br />
