@@ -20,7 +20,6 @@ while (counter < 3) {
     counter = counter + 1 
     } 
 OUTPUT [Ph, Pl]
-<br />
 </pre>
 The timing for the dataflow is controlled by a clock signal and the loading of register is dependent on the rising clock edge.
 
